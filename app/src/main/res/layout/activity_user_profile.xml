@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/petlover_background"
+    tools:context=".user.UserProfileActivity"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.15"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/border_edittext"
+            android:hint="USERNAME"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/userProfileStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/border_edittext"
+            android:hint="PASSWORD"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/saveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/fill_layout_color"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:id="@+id/addNewPet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/fill_layout_color"
+    android:gravity="center"
+    android:padding="7dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD NEW PET"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
